@@ -1,5 +1,6 @@
 """
-NOTE: The Type I variant of the Geometric Distribution counts trials until success -- not failures.
+NOTE: The Type I variant of the Geometric Distribution counts
+      trials until success -- not failures.
 """
 import numpy as np
 import matplotlib.pyplot as plt
@@ -32,10 +33,14 @@ ax.set_xlim(0, 21)
 ax.set_ylabel('P (X trials required for the first success)')
 
 # Plot the data
-ax.plot(x1, pmf_x1, marker='o', linestyle=':', color='red',    alpha=0.6, label='X1~Geo(p=0.2)')
-ax.plot(x2, pmf_x2, marker='o', linestyle=':', color='green',  alpha=0.6, label='X2~Geo(p=0.5)')
-ax.plot(x3, pmf_x3, marker='o', linestyle=':', color='blue',   alpha=0.6, label='X3~Geo(p=0.8)')
-ax.plot(x4, pmf_x4, marker='o', linestyle=':', color='orange', alpha=0.6, label='X4~Geo(p=1.0)')
+ax.plot(x1, pmf_x1, marker='o', linestyle=':', color='red',    alpha=0.6,
+        label='X1~Geo(p=0.2)')
+ax.plot(x2, pmf_x2, marker='o', linestyle=':', color='green',  alpha=0.6,
+        label='X2~Geo(p=0.5)')
+ax.plot(x3, pmf_x3, marker='o', linestyle=':', color='blue',   alpha=0.6,
+        label='X3~Geo(p=0.8)')
+ax.plot(x4, pmf_x4, marker='o', linestyle=':', color='orange', alpha=0.6,
+        label='X4~Geo(p=1.0)')
 
 # Render
 ax.grid()

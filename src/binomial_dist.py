@@ -32,9 +32,12 @@ ax.set_xlim(-1, 21)
 ax.set_ylabel('P (Exactly X successes occur)')
 
 # Plot the Distributions
-ax.bar(x1, pmf_x1, color='r', alpha=0.6, align='center', label='X1~Binom(n=20, p=0.15)')
-ax.bar(x2, pmf_x2, color='g', alpha=0.6, align='center', label='X2~Binom(n=20, p=0.50)')
-ax.bar(x3, pmf_x3, color='b', alpha=0.6, align='center', label='X3~Binom(n=20, p=0.85)')
+ax.bar(x1, pmf_x1, color='r', alpha=0.6, align='center',
+       label='X1~Binom(n=20, p=0.15)')
+ax.bar(x2, pmf_x2, color='g', alpha=0.6, align='center',
+       label='X2~Binom(n=20, p=0.50)')
+ax.bar(x3, pmf_x3, color='b', alpha=0.6, align='center',
+       label='X3~Binom(n=20, p=0.85)')
 
 # Render
 ax.grid()
