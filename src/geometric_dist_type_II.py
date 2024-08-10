@@ -1,7 +1,9 @@
+"""
+NOTE: The Type II variant of the Geometric Distribution counts failures until success -- not trials.
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 from numpy.typing import NDArray
-from pprint import pprint
 
 # Custom function 
 def geom_type2_pmf(support: NDArray, p: float) -> NDArray:

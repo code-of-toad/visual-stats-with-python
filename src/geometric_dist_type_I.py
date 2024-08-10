@@ -1,3 +1,6 @@
+"""
+NOTE: The Type I variant of the Geometric Distribution counts trials until success -- not failures.
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import geom
