@@ -32,7 +32,7 @@ ax.set_xlim(0, 21)
 
 ax.set_ylabel('P (X trials required for the first success)')
 
-# Plot the data
+# Plot data
 ax.plot(x1, pmf_x1, marker='o', linestyle=':', color='red',    alpha=0.6,
         label='X1~Geo(p=0.2)')
 ax.plot(x2, pmf_x2, marker='o', linestyle=':', color='green',  alpha=0.6,

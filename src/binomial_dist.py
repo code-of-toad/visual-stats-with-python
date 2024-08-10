@@ -31,7 +31,7 @@ ax.set_xlim(-1, 21)
 
 ax.set_ylabel('P (Exactly X successes occur)')
 
-# Plot the Distributions
+# Plot data
 ax.bar(x1, pmf_x1, color='r', alpha=0.6, align='center',
        label='X1~Binom(n=20, p=0.15)')
 ax.bar(x2, pmf_x2, color='g', alpha=0.6, align='center',
