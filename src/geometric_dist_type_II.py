@@ -14,7 +14,7 @@ def geom_type2_pmf(support: NDArray, p: float) -> NDArray:
         array[i] = geom(i, p)
     return array
 
-# Parameters: Geometric Disribution (Type II)
+# Parameters: Geometric Disributions (Type II)
 p1 = 0.20
 p2 = 0.50
 p3 = 0.80

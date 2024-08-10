@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import binom
 from pprint import pprint
 
-# Parameters: Binomial Distribution
+# Parameters: Binomial Distributions
 n1 = 20
 n2 = 20
 n3 = 20

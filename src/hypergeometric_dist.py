@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import hypergeom
 
-# Parameters: Hypergeometric Distribution
+# Parameters: Hypergeometric Distributions
 N1 = 100
 N2 = 100
 N3 = 100

@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import nbinom
 
-# Parameters: Negative Binomial Distribution
+# Parameters: Negative Binomial Distributions
 p = 0.5
 
 r1 = 1
