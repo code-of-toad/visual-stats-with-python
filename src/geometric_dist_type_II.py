@@ -35,11 +35,11 @@ fig, ax = plt.subplots()
 
 ax.set_title('Geometric Distributions (Type II)')
 
-ax.set_xlabel('# Failures before the first success')
+ax.set_xlabel('Number of failures until the first success')
 ax.set_xticks([x for x in range(21)])
 ax.set_xlim(-1, 21)
 
-ax.set_ylabel('P (X failures occur before the first success)')
+ax.set_ylabel('P (X failures until the first success)')
 
 # Plot data
 ax.plot(x1, pmf_x1, marker='o', linestyle=':', color='red',    alpha=0.6,

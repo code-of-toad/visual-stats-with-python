@@ -25,7 +25,7 @@ fig, ax = plt.subplots()
 
 ax.set_title('Binomial Distributions')
 
-ax.set_xlabel('# Successes out of n trials')
+ax.set_xlabel('Number of successes out of n trials')
 ax.set_xticks([x for x in range(21)])
 ax.set_xlim(-1, 21)
 

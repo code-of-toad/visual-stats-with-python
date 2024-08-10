@@ -26,11 +26,11 @@ pmf_x4 = geom.pmf(k=x4, p=p4)
 fig, ax = plt.subplots()
 ax.set_title('Geometric Distributions (Type I)')
 
-ax.set_xlabel('# Trials required for the first success')
+ax.set_xlabel('Number of trials until the first success')
 ax.set_xticks([x for x in range(1, 21)])
 ax.set_xlim(0, 21)
 
-ax.set_ylabel('P (X trials required for the first success)')
+ax.set_ylabel('P (X trials until the first success)')
 
 # Plot data
 ax.plot(x1, pmf_x1, marker='o', linestyle=':', color='red',    alpha=0.6,
