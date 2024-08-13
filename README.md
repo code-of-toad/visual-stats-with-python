@@ -1,3 +1,3 @@
 # visual-stats-with-python
 
-This project contains Python modules that each plots theoretical probability distributions.
+This project contains Python modules—each of which plots theoretical probability distributions.
